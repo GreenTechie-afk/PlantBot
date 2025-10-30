@@ -6,14 +6,6 @@ This repository contains all the technical files for my Smart Plant Water Remind
 > 👉 PlantBot: Smart Plant Water Reminder
 
 
-## 📁 What’s Inside
-
-- code/: Arduino code 
-- media/: Circuit wiring diagram and project photos
-- 3d-print-files/: STL file for the 3D-printed mushroom-style enclosure
-
----
-
 ## 🛠️ Tech Stack
 
 - ESP8266 NodeMCU
