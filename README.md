@@ -2,13 +2,13 @@
 
 This repository contains all the technical files for my Smart Plant Water Reminder: a Wi-Fi-connected device that tells you when your plant needs watering via LED alert and Telegram notification.
 
-> 🚀 Full tutorial, project story, and photos available on my portfolio:  
-> 👉 [Smart Plant Water Reminder – EcoHacks #1] (link)
+> 🚀 Project breakdown and photos available on my portfolio:  
+> 👉 PlantBot: Smart Plant Water Reminder
 
 
 ## 📁 What’s Inside
 
-- code/: Arduino code and example secrets.h file
+- code/: Arduino code 
 - media/: Circuit wiring diagram and project photos
 - 3d-print-files/: STL file for the 3D-printed mushroom-style enclosure
 
