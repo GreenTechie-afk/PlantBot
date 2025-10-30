@@ -1,25 +1,32 @@
-# 🌿 Smart Plant Water Reminder – Project Files
+# Arduino code
 
-This repository contains all the technical files for my Smart Plant Water Reminder: a Wi-Fi-connected device that tells you when your plant needs watering via LED alert and Telegram notification.
+This folder contains the Arduino sketches, libraries, and build instructions for the PlantBot project.
 
-👉 Project breakdown and photos available on my portfolio:  
->  [PlantBot: Smart Plant Water Reminder](https://editor.wix.com/html/editor/web/renderer/edit/7dd5ee8c-e91b-44d8-93e9-605d003c71eb?metaSiteId=678279c4-7c1c-49d0-87b9-8d6adbd433d8)
+Suggested structure:
+- /Arduino code/Sketches/PlantBot/    (main sketch folder — keep Arduino sketch filename and folder name the same)
+- /Arduino code/Libraries/            (any custom libraries or third-party libraries used by the project)
+- /Arduino code/Examples/             (example sketches or usage demos)
+- /Arduino code/Builds/               (optional: compiled binaries such as .hex files)
+- /Arduino code/CHANGELOG.md          (track notable changes)
 
+Contents to include for each sketch:
+- a README explaining purpose and wiring diagram
+- a .ino file with the sketch
+- a libraries list (names + links) for third-party libraries
+- example configuration (e.g., config.h.example)
 
-## 🛠️ Tech Stack
+How to build and upload
+- Open the sketch in the Arduino IDE or VS Code + PlatformIO.
+- Install required libraries listed in the Libraries section.
+- Select the appropriate board and COM port, then upload.
 
-- ESP8266 NodeMCU
-- Capacitive soil moisture sensor
-- Wi-Fi connectivity + Telegram Bot API
-- Arduino IDE
-- 3D design: Shapr3D / AutoCAD
+Example: PlantBot sketch
+- Arduino IDE: /Arduino code/Sketches/PlantBot/PlantBot.ino
+- Brief wiring summary: sensors on A0-A2, I2C LCD on SDA/SCL, pump relay on D8, power from a 5V regulator.
 
-## 🧠 Usage Notes
+PlatformIO
+- You can add a platformio.ini file at the sketch root to support PlatformIO builds.
 
-1. Open the .ino file in the Arduino IDE  
-2. Create your own secrets.h file in the same folder with:
-   ```cpp
-   #define WIFI_SSID "your_wifi"
-   #define WIFI_PASSWORD "your_password"
-   #define BOT_TOKEN "your_bot_token"
-   #define CHAT_ID "your_telegram_chat_id"
+Notes on licensing and contributions
+- Include license information that applies to the code (LICENSE file at repo root applies here unless otherwise noted).
+- If you include third-party libraries, include attribution and links.
