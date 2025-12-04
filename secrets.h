@@ -1,6 +1,7 @@
 // secrets.h
-const char* ssid = "ATTSpa24ny";
-const char* password = "Penelope61";
+const char* ssid = "Wi-Fi name";
+const char* password = "WiFi Passwords";
 
-const char* botToken = "7691931758:AAFvzepesDz3peYZDPKQrySaUzxj02xnqj4";
-const char* chatID = "8008079127";
+const char* botToken = "bottken1234567890";
+const char* chatID = "1234567890";
+
